@@ -33,13 +33,14 @@
 
 1. Вступление к циклу:
 
-<a href="https://www.youtube.com/watch?v=CXb2IAfwMY4" target="_blank"><img src="https://i9.ytimg.com/vi_webp/CXb2IAfwMY4/mqdefault.webp?v=63898224&sqp=CITMwJwG&rs=AOn4CLAUFje8usicWvBR7YJC8kmQDHMPeA" alt="вступление" width="192" height="" border="128" /></a>
+<a href="https://www.youtube.com/watch?v=CXb2IAfwMY4" target="_blank"><img src="https://i9.ytimg.com/vi_webp/CXb2IAfwMY4/mqdefault.webp?v=63898224&sqp=CITMwJwG&rs=AOn4CLAUFje8usicWvBR7YJC8kmQDHMPeA" alt="вступление" width="96" height="" border="64" /></a>
 
 Дополнительные материалы:
 
 1. Наглядная демонстрация того как в код закрадываются ошибки, при чем тут exhusitive when, TDD, coverage
 
-[[!Решение проблемы exhausitive when и coverage](https://i9.ytimg.com/vi_webp/4sc8-3tJN0c/mqdefault.webp?v=6374a362&sqp=CLDOwJwG&rs=AOn4CLAcMrRL8cBBu1mzDxOfTzw8GB45Ew)](https://www.youtube.com/watch?v=4sc8-3tJN0c)
+<a href="https://www.youtube.com/watch?v=4sc8-3tJN0c" target="_blank"><img src="https://i9.ytimg.com/vi_webp/4sc8-3tJN0c/mqdefault.webp?v=6374a362&sqp=CLDOwJwG&rs=AOn4CLAcMrRL8cBBu1mzDxOfTzw8GB45Ew" alt="Решение проблемы exhausitive when и coverage" width="96" height="" border="64" /></a>
+
 
 **TODO(тут ссылки на другие видео)**
 
