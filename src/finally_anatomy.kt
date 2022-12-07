@@ -1,3 +1,5 @@
+import java.time.Instant
+
 fun withFinally(callback: (Int)-> Int) : Int {
     try{
         println("before return");
@@ -7,6 +9,8 @@ fun withFinally(callback: (Int)-> Int) : Int {
         println("in finally");
     }
 }
+
+
 fun main() {
     val result = withFinally{ it ->
         println("main");
@@ -27,7 +31,7 @@ fun withNoFinallyJavaStyle(callback: (Int)-> Int) : Int {
         val ___result = callback(10);
         println("in finally");
         return ___result
-        println("after return");
+        // println("after return");
     } catch(e: Throwable) {
         println("in finally");
         throw e;
@@ -35,13 +39,13 @@ fun withNoFinallyJavaStyle(callback: (Int)-> Int) : Int {
 }
 
 fun withNoFinallyGolangStyle(callback: (Int)-> Int) : Int {
-    fun defer() { println("in finally") }
+    fun defer() { println("in finally"); }
     try{
         println("before return");
         val ___result = callback(10);
         defer()
         return ___result
-        println("after return");
+        //println("after return");
     } catch(e: Throwable) {
         defer()
         throw e;
