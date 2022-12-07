@@ -33,7 +33,7 @@
 
 1. Вступление к циклу:
 
-2. [[!вступление](https://i9.ytimg.com/vi_webp/CXb2IAfwMY4/mqdefault.webp?v=63898224&sqp=CITMwJwG&rs=AOn4CLAUFje8usicWvBR7YJC8kmQDHMPeA)](https://www.youtube.com/watch?v=CXb2IAfwMY4)
+<a href="https://www.youtube.com/watch?v=CXb2IAfwMY4" target="_blank"><img src="https://i9.ytimg.com/vi_webp/CXb2IAfwMY4/mqdefault.webp?v=63898224&sqp=CITMwJwG&rs=AOn4CLAUFje8usicWvBR7YJC8kmQDHMPeA" alt="вступление" width="192" height="" border="128" /></a>
 
 Дополнительные материалы:
 
