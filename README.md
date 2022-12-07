@@ -5,10 +5,15 @@
 
 Сделано по следам [этого опросника](https://forms.gle/Yp2Qz9KBBV9pwm1B8)
 
-И для вот этого **TODO()** видео
+И для вот этого 
+<a href="https://www.youtube.com/watch?v=Qa56w3uB2L4" target="_blank"><img src="https://i9.ytimg.com/vi/Qa56w3uB2L4/mqdefault.jpg?v=639059d0&sqp=CJSzwZwG&rs=AOn4CLBvJ1se2ebHt-7utsgrROgPbAmp3w" alt="вступление" width="96" height="" border="64" /></a>
+видео
+
 
 Оказалось, что даже разработчики с опытом не до конца понимают
 логику обработки конструкции `finally`
+
+
 
 # Основное в репозитории
 
@@ -42,7 +47,4 @@
 1. Наглядная демонстрация того как в код закрадываются ошибки, при чем тут exhusitive when, TDD, coverage
 
 <a href="https://www.youtube.com/watch?v=4sc8-3tJN0c" target="_blank"><img src="https://i9.ytimg.com/vi_webp/4sc8-3tJN0c/mqdefault.webp?v=6374a362&sqp=CLDOwJwG&rs=AOn4CLAcMrRL8cBBu1mzDxOfTzw8GB45Ew" alt="Решение проблемы exhausitive when и coverage" width="96" height="" border="64" /></a>
-
-
-**TODO(тут ссылки на другие видео)**
 
