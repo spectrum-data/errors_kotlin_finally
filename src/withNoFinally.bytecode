@@ -1,0 +1,12 @@
+  public final static withNoFinally()I
+   L0
+    LINENUMBER 76 L0
+    INVOKESTATIC Finally_anatomyKt.someFun ()I
+
+// строка println просто проигнорирована
+
+    IRETURN
+
+   L1
+    MAXSTACK = 1
+    MAXLOCALS = 1

@@ -49,10 +49,12 @@ fun withNoFinallyGolangStyle(callback: (Int)-> Int) : Int {
 }
 
 // Теперь понятно и с return из finally
+fun someFun() : Int = 1
+
 
 fun withFinallyReturn() : Int {
     try{
-        return 1;
+        return someFun();
     } finally {
         return 2;
     }
@@ -62,17 +64,22 @@ fun withFinallyReturn() : Int {
 
 fun with_NO_FinallyReturn() : Int {
     try{
-        val ___result =  return 1;
+        someFun(); // ignore result  _ = someFun()
         return 2;
-        return ___result;
+        //return ___result; // нет следов такого возврата
     } catch(_: Throwable) {
-        return 2; //!!!  no rethrow!!!
+        return 2; //!!!  нет перевыброса исключения
     }
+}
+
+fun withNoFinally() : Int {
+    return someFun();
+    println(2) // удалится оптимизатором
 }
 
 fun withFinallyAction() : Int {
     try{
-        return 1;
+        return someFun();
     } finally {
         println(2)
     }
@@ -80,7 +87,7 @@ fun withFinallyAction() : Int {
 
 fun with_NO_FinallyAction() : Int {
     try{
-         val ___result =  return 1;
+        val ___result =  someFun();
         println(2)
         return ___result;
     } catch(e: Throwable) {

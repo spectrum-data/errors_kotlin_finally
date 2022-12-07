@@ -1,0 +1,43 @@
+// access flags 0x19
+  public final static withFinallyAction()I
+    TRYCATCHBLOCK L0 L1 L2 null
+    TRYCATCHBLOCK L2 L3 L2 null
+   L4
+    LINENUMBER 76 L4
+   L0
+    NOP
+   L5
+    LINENUMBER 77 L5
+    INVOKESTATIC Finally_anatomyKt.someFun ()I
+    ISTORE 0
+// тут мы стек не проматываем, но никакого RET тут нет,
+// работаем дальше
+   L1
+    LINENUMBER 79 L1
+    ICONST_2
+    ISTORE 1
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    ILOAD 1
+    INVOKEVIRTUAL java/io/PrintStream.println (I)V
+// это finally по линии успеха без ошибок
+   L6
+    ILOAD 0
+   L7
+    LINENUMBER 77 L7
+    IRETURN
+   L2
+    LINENUMBER 79 L2
+    ASTORE 0
+   L3
+    ICONST_2
+    ISTORE 1
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    ILOAD 1
+    INVOKEVIRTUAL java/io/PrintStream.println (I)V
+// а это собственно по линии ошибок с rethrow
+   L8
+    ALOAD 0
+    ATHROW
+   L9
+    MAXSTACK = 2
+    MAXLOCALS = 2

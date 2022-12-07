@@ -1,0 +1,28 @@
+// access flags 0x19
+  public final static withFinallyReturn()I
+    TRYCATCHBLOCK L0 L1 L2 null
+    TRYCATCHBLOCK L2 L3 L2 null
+   L4
+    LINENUMBER 56 L4
+   L0
+    NOP
+   L5
+    LINENUMBER 57 L5
+    INVOKESTATIC Finally_anatomyKt.someFun ()I
+    POP
+// нет и следа от операции return в try, и более того
+// стек просто проматывается, чтобы там не было результата!
+   L1
+    LINENUMBER 59 L1
+    ICONST_2
+// тут уже нет rethrow
+    IRETURN
+   L2
+    LINENUMBER 59 L2
+    ASTORE 0
+   L3
+    ICONST_2
+    IRETURN
+   L6
+    MAXSTACK = 1
+    MAXLOCALS = 1

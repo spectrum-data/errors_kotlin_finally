@@ -17,6 +17,8 @@
 2. [src/finally_anatomy.kt](./src/finally_anatomy.kt) - тут смотрим во что примерно разворачивается `finally`
 3. [src/no_guarantee.kt](./src/no_guarantee.kt) - тут простая демонстрация того, что `finally` не может магически выполниться "в любом
    случае"
+4. [src/*.bytecode](./src) приложение к [src/finally_anatomy.kt](./src/finally_anatomy.kt) чтобы увидеть байткод, например
+   [src/withFinallyAction.bytecode](./src/withFinallyAction.bytecode)
 
 # Что еще возможно интересно
 

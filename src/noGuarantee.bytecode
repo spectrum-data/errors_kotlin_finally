@@ -1,0 +1,68 @@
+// ================No_guaranteeKt.class =================
+// class version 52.0 (52)
+// access flags 0x31
+public final class No_guaranteeKt {
+
+
+  // access flags 0x19
+  public final static main()V
+    TRYCATCHBLOCK L0 L1 L1 null
+    TRYCATCHBLOCK L1 L2 L1 null
+   L3
+    LINENUMBER 4 L3
+    LDC "Open Transaction"
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L4
+    LINENUMBER 5 L4
+   L0
+    NOP
+   L5
+    LINENUMBER 6 L5
+    LDC "Do some work"
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L6
+   L7
+    LINENUMBER 7 L7
+    ICONST_1
+    INVOKESTATIC java/lang/System.exit (I)V
+
+  // очаровательно, тут мы не вызываем уже finally, хотя мы еще в процессе Java
+    NEW java/lang/RuntimeException
+    DUP
+    LDC "System.exit returned normally, while it was supposed to halt JVM."
+    INVOKESPECIAL java/lang/RuntimeException.<init> (Ljava/lang/String;)V
+    ATHROW
+   L1
+    LINENUMBER 9 L1
+    ASTORE 0
+   L2
+    LDC "Finish Transaction"
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    SWAP
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/Object;)V
+   L8
+    ALOAD 0
+    ATHROW
+   L9
+    MAXSTACK = 3
+    MAXLOCALS = 2
+
+  // access flags 0x1009
+  public static synthetic main([Ljava/lang/String;)V
+    // annotable parameter count: 1 (visible)
+    // annotable parameter count: 1 (invisible)
+   L0
+    INVOKESTATIC No_guaranteeKt.main ()V
+    RETURN
+   L1
+    LOCALVARIABLE args [Ljava/lang/String; L0 L1 0
+    MAXSTACK = 0
+    MAXLOCALS = 1
+
+  @Lkotlin/Metadata;(mv={1, 7, 0}, k=2, xi=48, d1={"\u0000\u0008\n\u0000\n\u0002\u0010\u0002\n\u0000\u001a\u0006\u0010\u0000\u001a\u00020\u0001\u00a8\u0006\u0002"}, d2={"main", "", "finally"})
+  // compiled from: no_guarantee.kt
+}
