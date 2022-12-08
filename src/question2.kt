@@ -15,6 +15,6 @@ fun main() {
     println(result.joinToString())
 }
 
-// Должен быть ответ `catch; finally`
+// Должен быть ответ `catch, finally`
 
 // 1 ответ `finally`
